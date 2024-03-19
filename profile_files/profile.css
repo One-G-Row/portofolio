@@ -1,0 +1,110 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 14pt;
+  background: gray;
+  overflow: hidden;
+}
+
+* {
+  color: #000;
+}
+
+section.container h2#name {
+  color: gray;
+  font-style: bold;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24pt;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+/*container with the bio, about and hobbies*/
+section.container {
+  width: 50%;
+  height: 98vh;
+  margin-top: 5px;
+  margin-left: 450px;
+  padding: 5px 20px;
+  background: azure;
+}
+
+/*image file*/
+div.image #myimage {
+  width: 400px;
+  height: 400px;
+  float: left;
+  position: relative;
+  top: 40px;
+  margin-right: 20px;
+  border-radius: 200px;
+}
+/*style the button*/
+#btn {
+  background: #06d6a0;
+  width: 100px;
+  height: 40px;
+  margin: auto;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding-left: 50px;
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+/*change the color of the button when clicked*/
+#btn:focus {
+  background: #de3c4b;
+}
+/*change the color when the color is clicked again*/
+#btn:focus-visible {
+  background: #06d6a0;
+}
+
+footer h3 {
+  color: white;
+}
+
+/*style the lists in the footer*/
+footer ul li {
+  list-style-type: none;
+  color: white;
+}
+
+/*change the color and remove underline from email address*/
+footer ul li > a#email {
+  color: blue;
+  text-decoration: none;
+}
+
+/*change the color of the <a> when hovering */
+footer ul li a#email:hover {
+  color: white;
+}
+
+footer h3 {
+  margin-left: 20px;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 110px;
+  left: 10px;
+  padding-bottom: 20px;
+  background: gray;
+  opacity: 1;
+  width: 10%;
+  height: 5px;
+}
